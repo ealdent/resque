@@ -1,3 +1,38 @@
+## 1.9.1 (2010-06-04)
+
+* Less strict JSON dependency
+* Included HISTORY.md in gem
+
+## 1.9.0 (2010-06-04)
+
+* Redis 2 support
+* Depend on redis-namespace 0.5.0
+* Added Resque::VERSION constant (alias of Resque::Version)
+* Bugfix: Specify JSON dependency
+* Bugfix: Hoptoad plugin now works on 1.9
+
+## 1.8.5 (2010-05-18)
+
+* Bugfix: Be more liberal in which Redis clients we accept.
+
+## 1.8.4 (2010-05-18)
+
+* Try to resolve redis-namespace dependency issue
+
+## 1.8.3 (2010-05-17)
+
+* Depend on redis-rb ~> 1.0.7
+
+## 1.8.2 (2010-05-03)
+
+* Bugfix: Include "tasks/" dir in RubyGem
+
+## 1.8.1 (2010-04-29)
+
+* Bugfix: Multiple failure backend did not support requeue-ing failed jobs
+* Bugfix: Fix /failed when error has no backtrace
+* Bugfix: Add `Redis::DistRedis` as a valid client
+
 ## 1.8.0 (2010-04-07)
 
 * Jobs that never complete due to killed worker are now failed.
