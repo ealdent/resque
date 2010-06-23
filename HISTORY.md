@@ -1,3 +1,25 @@
+## 1.9.6 (2010-06-22)
+
+* Bugfix: Rakefile logging works the same as all the other logging
+
+## 1.9.5 (2010-06-16)
+
+* Web Bugfix: Display the configured namespace on the stats page
+* Revert Bugfix: Make ps -o more cross platform friendly
+
+## 1.9.4 (2010-06-14)
+
+* Bugfix: Multiple failure backend gets exception information when created
+
+## 1.9.3 (2010-06-14)
+
+* Bugfix: Resque#queues always returns an array
+
+## 1.9.2 (2010-06-13)
+
+* Bugfix: Worker.all returning nil fix
+* Bugfix: Make ps -o more cross platform friendly
+
 ## 1.9.1 (2010-06-04)
 
 * Less strict JSON dependency
